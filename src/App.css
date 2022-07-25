@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-size: 18px;
+    
+}
+
+.App{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.main-container{
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.countainer-quote{
+    width: 700px;
+    height: 300px;
+    margin: 0 300px;
+    display: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 1px 3px 20px #0005;
+}
+
+.countainer-text-quote{
+    text-align: center;
+    padding: 60px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.quote{
+    font-size: 4em;
+}
+
+.text-quote{
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.quote-btn{
+    color: white;
+    border: 0;
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 0 10px #000;
+    transition: box-shadow 200ms ease;
+}
+
+.quote-btn:hover{
+    box-shadow: 0 0 5px #000;
+    transition: box-shadow 200ms ease;
+}
